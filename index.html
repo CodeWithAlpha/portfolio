@@ -34,7 +34,7 @@
             <li><a href="#skill">skill</a></li>
             <li><a href="#">project</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a href="#contactus">contact</a></li>
         </ul>
     </nav>
 
@@ -232,9 +232,32 @@
             skills and knowledge for the development of the project, where strong project management and analytical
             skills will be useful in the delivery of the services to the customer.</div>
         <a data-aos="zoom-in" data-aos-delay="400" class="about-button"
-            href="https://drive.google.com/u/0/uc?id=1nzQmzv6U12yCYNEE1bCpZtn-t5OLzfpx&export=download"> Download CV
+            href="https://drive.google.com/u/0/uc?id=1e4nE6mZqi9h0LYEL8M4eY9rifMO1Or7c&export=download"> Download CV
         </a>
     </section>
+
+    <section id="contactus">
+        <form class="contactForm" data-aos="zoom-in-up">
+            <h2 data-aos="zoom-in-up" data-aos-delay="200"> send massage</h2>
+            <div class="inputbox" data-aos="zoom-in-up" data-aos-delay="300">
+                <input type="text" name="" required="required">
+                <span>Full Name</span>
+            </div>
+            <div class="inputbox" data-aos="zoom-in-up" data-aos-delay="500">
+                <input type="text" name="" required="required">
+                <span>Email</span>
+            </div>
+            <div class="inputbox" data-aos="zoom-in-up" data-aos-delay="700">
+                <textarea required="required"></textarea>
+                <span>Type your massage....</span>
+            </div>
+            <div class="inputbox" data-aos="zoom-in-up" data-aos-delay="1000">
+                <input type="submit" value="submit">
+            </div>
+        </form>
+    </section>
+
+
 
     <footer>
         <div id="contact" class="contact" style="flex-basis: 40%;">
@@ -270,11 +293,12 @@
 
 <script>
     AOS.init();
-    
-      $(document).ready(function () {
+
+    $(document).ready(function () {
         $(".toggle-button").click(function () {
             $(".navbar-list").toggleClass("active")
         });
     });
 </script>
+
 </html>
