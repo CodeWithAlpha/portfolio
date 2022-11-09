@@ -415,7 +415,7 @@ html {
   font-size: 1.3em;
 }
 
-@keyframes animate {
+/* @keyframes animate {
   0% {
     background-position: 0px 0px;
   }
@@ -434,7 +434,7 @@ html {
   100% {
     background-position: 1544px 0px;
   }
-}
+} */
 
 /* ***********************footer start here****************** */
 
