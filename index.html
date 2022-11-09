@@ -270,5 +270,11 @@
 
 <script>
     AOS.init();
+    
+      $(document).ready(function () {
+        $(".toggle-button").click(function () {
+            $(".navbar-list").toggleClass("active")
+        });
+    });
 </script>
 </html>
