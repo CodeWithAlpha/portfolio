@@ -603,8 +603,6 @@ footer .contact button:hover {
     width: 13em;
     height: 17em;
   }
-  @keyframes animate {
-}
   .skill-flex {
     flex-direction: column;
   }
