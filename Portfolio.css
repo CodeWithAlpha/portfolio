@@ -642,13 +642,24 @@ footer .contact button:hover {
 /* **************footer ends here***************** */
 
 @media screen and (max-width: 541px) {
+    .cup-content{
+    font-size: 75%;
+  }
+  .header-container-content img {
+    width: 25em;
+  }
+  .header-container-content > p {
+    padding-bottom: 5em;
+  }
+}
+@media screen and (max-width: 770px) {
   .skills {
     grid-template-columns: auto auto;
   }
   .cup {
     width: 13em;
     height: 17em;
-    background-color: var(--background);
+    background: var(--background);
   }
   @keyframes animate {
   }
@@ -658,6 +669,7 @@ footer .contact button:hover {
   .header-container-content {
     flex-direction: column;
     justify-content: center;
+    /* font-size: 80%; */
   }
   .header-container-content img {
     width: 25em;
@@ -705,11 +717,9 @@ footer .contact button:hover {
       opacity: 1;
     }
   }
-  .contactForm{
+  .contactForm {
     width: 90%;
   }
-}
-@media screen and (max-width: 770px) {
 }
 @media screen and (max-width: 1025px) {
   html {
@@ -718,6 +728,6 @@ footer .contact button:hover {
 }
 @media only screen and (min-width: 1211px) {
   html {
-    font-size: 125%;
+    font-size: 120%;
   }
 }
