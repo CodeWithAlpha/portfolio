@@ -345,36 +345,30 @@ html {
 }
 
 .cup:nth-child(1) {
-  background: url(./images/wave.png);
   background-repeat: repeat-x;
   animation: animate 6s linear infinite;
 }
 .cup:nth-child(2) {
-  background: url(./images/wave.png);
   background-repeat: repeat-x;
   animation: animate 6s linear infinite;
   animation-delay: 1s;
 }
 .cup:nth-child(3) {
-  background: url(./images/wave.png);
   background-repeat: repeat-x;
   animation: animate 6s linear infinite;
   animation-delay: 2s;
 }
 .cup:nth-child(4) {
-  background: url(./images/wave.png);
   background-repeat: repeat-x;
   animation: animate 4s linear infinite;
   animation-delay: 0.1s;
 }
 .cup:nth-child(5) {
-  background: url(./images/wave.png);
   background-repeat: repeat-x;
   animation: animate 4s linear infinite;
   animation-delay: 0.85s;
 }
 .cup:nth-child(6) {
-  background: url(./images/wave.png);
   background-repeat: repeat-x;
   animation: animate 4s linear infinite;
   animation-delay: 1.6s;
@@ -642,7 +636,8 @@ footer .contact button:hover {
 /* **************footer ends here***************** */
 
 @media screen and (max-width: 541px) {
-    .cup-content{
+  
+  .cup-content{
     font-size: 75%;
   }
   .header-container-content img {
