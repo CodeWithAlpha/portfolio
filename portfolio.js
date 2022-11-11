@@ -16,7 +16,7 @@ function validate() {
   const email = document.getElementById("email").value;
   const textarea = document.getElementById("textarea").value;
 
-  if (fullName == "" || fullName.length >= 3) {
+  if (fullName !== "" || fullName.length >= 3) {
     if (email.includes("@") && email.includes(".com")) {
       if (textarea.length > 10) {
         console.log("submitted");
