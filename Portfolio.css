@@ -632,6 +632,9 @@ footer .contact button:hover {
 }
 
 .alert-red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   text-align: center;
   top: -1em;
@@ -645,8 +648,10 @@ footer .contact button:hover {
 }
 
 .alert-green{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  text-align: center;
   top: -1em;
   height: 2.5em;
   width: 100%;
