@@ -630,6 +630,32 @@ footer .contact button:hover {
   cursor: pointer;
 }
 
+.alert-red {
+  position: relative;
+  text-align: center;
+  top: -1em;
+  height: 2.5em;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(228, 56, 56);
+  margin: 0px;
+  transition: all 0.2s;
+}
+
+.alert-green{
+  position: relative;
+  text-align: center;
+  top: -1em;
+  height: 2.5em;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: hwb(120 56% 7%);
+  margin: 0px;
+  transition: all 0.2s;
+}
+
 /* ******************form end here********************* */
 
 
