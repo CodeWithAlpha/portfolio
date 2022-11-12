@@ -336,6 +336,7 @@ html {
   transform: scale(1);
   transition: all 0.5s !important;
   overflow: hidden;
+  background: url(./images/wave.png);
 }
 
 .cup:hover {
