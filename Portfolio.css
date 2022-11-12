@@ -289,8 +289,8 @@ html {
 
 .qualification-container:hover {
   box-shadow: 0 10px 25px rgba(42, 180, 239, 1);
-  transform: scale(1.1);
-  transition: all 0.5s;
+  transform: scale(1.1) !important;
+  transition: all 0.5s !important;
 }
 
 .year-left {
