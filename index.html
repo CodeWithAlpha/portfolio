@@ -237,13 +237,14 @@
 
     <section id="contactus">
         <form class="contactForm" onsubmit="return validate()" data-aos="zoom-in-up">
+            <div class="alert-green"><span class="assist"><b>Hi !</b>  i'm Alpha. I help you to fill form correctly. <span style="font-size:1.2em"> &#128130; </span></span></div>
             <h2 data-aos="zoom-in-up" data-aos-delay="200"> send massage</h2>
             <div class="inputbox" data-aos="zoom-in-up" data-aos-delay="300">
-                <input type="text" name="" id="fullName">
+                <input type="text" name="" id="fullName" autocomplete="off">
                 <span>Full Name</span>
             </div>
             <div class="inputbox" data-aos="zoom-in-up" data-aos-delay="500">
-                <input type="text" name="" id="email" >
+                <input type="text" name="" id="email" autocomplete="off">
                 <span>Email</span>
             </div>
             <div class="inputbox" data-aos="zoom-in-up" data-aos-delay="700">
@@ -251,7 +252,7 @@
                 <span>Type your massage....</span>
             </div>
             <div class="inputbox" data-aos="zoom-in-up" data-aos-delay="1000">
-                <input type="submit" value="submit">
+                <input type="submit" id="submit" value="submit">
             </div>
         </form>
     </section>
