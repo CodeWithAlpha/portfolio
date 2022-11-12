@@ -12,22 +12,48 @@ project.addEventListener("click", function () {
 });
 
 function validate() {
-  const fullName = document.getElementById("fullName").value;
-  const email = document.getElementById("email").value;
-  const textarea = document.getElementById("textarea").value;
+  var fullName = document.getElementById("fullName").value;
+  var email = document.getElementById("email").value;
+  var textarea = document.getElementById("textarea").value;
 
   if (fullName !== "" && fullName.length >= 3) {
-    if (email.includes("@") && email.includes(".com") || email.includes(".COM")) {
+    if (
+      (email.includes("@") && email.includes(".com")) ||
+      email.includes(".COM")
+    ) {
       if (textarea.length > 10) {
-        console.log("submitted");
+        alert("Massage Successfully send")
+        return true;
       } else {
-        console.log("please enter massage at least 10 character");
+        $(document).ready(function () {
+          $("#submit").click(function () {
+            $(".contactForm div:first-child").addClass("alert-red");
+        $(".contactForm div:first-child").removeClass("alert-green");
+            $(".assist").html("Please Enter minimum 10 character in Massage");
+          });
+        });
       }
     } else {
-      console.log("please enter valid Email");
+      $(document).ready(function () {
+        $("#submit").click(function () {
+          $(".contactForm div:first-child").addClass("alert-red");
+        $(".contactForm div:first-child").removeClass("alert-green");
+          $(".assist").html(
+            "Please Enter valid Email I'd (ex-: <b>alpha@gmail.com</b>)"
+          );
+        });
+      });
     }
   } else {
-    console.log("please enter Full name");
+    $(document).ready(function () {
+      $("#submit").click(function () {
+        $(".contactForm div:first-child").addClass("alert-red");
+        $(".contactForm div:first-child").removeClass("alert-green");
+        $(".assist").html(
+          "Please Enter full Name (ex-: <b>sharad choudhary</b>)"
+        );
+      });
+    });
   }
   return false;
 }
