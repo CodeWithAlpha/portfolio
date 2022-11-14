@@ -668,7 +668,12 @@ footer .contact button:hover {
 /* **************footer ends here***************** */
 
 @media screen and (max-width: 541px) {
-  
+  .alert-red{
+    font-size: 75%;
+  }
+  .alert-green{
+    font-size: 75%;
+  }
   .cup-content{
     font-size: 75%;
   }
